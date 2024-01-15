@@ -18,7 +18,7 @@ data "aws_region" "current" {}
 locals {
   # change here, optional
   name = "Microservice-Phonebook-App"
-  keyname = "mykey"
+  keyname = "*****"
   instancetype = "t3a.medium"
   ami = "ami-0c7217cdde317cfec"
 }
