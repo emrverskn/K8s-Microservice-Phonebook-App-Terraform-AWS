@@ -16,7 +16,6 @@ data "aws_caller_identity" "current" {}
 data "aws_region" "current" {}
 
 locals {
-  # change here, optional
   name = "Microservice-Phonebook-App"
   keyname = "*****"
   instancetype = "t3a.medium"
