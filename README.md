@@ -1,4 +1,4 @@
-# Project-206: Microservice Architecture for Phonebook Web Application (Python Flask) with MySQL using Kubernetes.
+# Microservice Architecture for Phonebook Web Application (Python Flask) with MySQL using Kubernetes.
 
 - Phonebook Microservice Web Application aims to create a web application with MySQL Database using Docker and Kubernetes.
 - In this application, we have a frontend service and a backend service to interact with database service.
