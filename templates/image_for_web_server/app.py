@@ -2,7 +2,6 @@ from flask import Flask, request, render_template
 from flaskext.mysql import MySQL
 import os
 
-
 app = Flask(__name__)
 
 app.config['MYSQL_DATABASE_HOST'] = os.getenv('MYSQL_DATABASE_HOST')
