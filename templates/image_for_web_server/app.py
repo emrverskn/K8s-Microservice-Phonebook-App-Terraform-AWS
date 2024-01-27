@@ -45,7 +45,7 @@ def insert_person(name, number):
     return f'Person {name.strip().title()} added to Phonebook successfully'
 
 
-# and returns text 
+
 def update_person(name, number):
     query = f"""
     SELECT * FROM phonebook WHERE name like '{name.strip().lower()}';
